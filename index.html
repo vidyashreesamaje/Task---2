@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recruit CRM Sourcing Extension</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+   <div class="container">
+    <header>
+        <img src="./logo.png" alt="Recruit CRM">
+       
+        <div class="search-container">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input type="search" id="search-input" placeholder="Search for articles..." class="search-bar">
+           
+        </div>
+    </header>
+
+   </div> 
+   <section class="import-section">
+    <p class="instructions" id="paragraph">Easily import candidates from LinkedIn to Recruit CRM with one click.</p>
+    <label for="linkedin-url">Enter LinkedIn Profile URL:</label>
+    <input type="url" id="linkedin-url" placeholder="https://www.linkedin.com/in/..." class="input-field">
+    <div class="buttons">
+        <button id="import-btn" class="btn primary-btn">Import Candidate</button>
+        <button id="clear-btn" class="btn secondary-btn">Clear</button>
+    </div>
+<div>
+    <h2>Recruit CRM Chrome Extension</h2>
+       <p id="firstpara">This tool will help you source candidates/companies/contacts from recruitment
+         platforms like LinkedIn, LinkedIn Recruiter, etc,</p>
+        
+       <p id="secondpara"> Written by Divya Utreja
+        Updated today</p>
+        <pre  id="thirdpara">    Our Chrome extension streamlines your workflow, enabling you to source 
+    candidates, contacts, and companies effortlessly from multiple recruitment 
+    platforms and lead databases with just one click! </pre>
+    <div id="fourthpara">
+        <p>The Chrome Extension works only on Chromium-based browsers including Google Chrome, Microsoft Edge, Brave browser, etc. </p>
+    </div>
+        
+</div>
+    <div id="feedback" class="feedback hidden"></div>
+</section>
+</div>
+<footer>
+    <div  id="footer">
+        <a href="https://help.recruitcrm.io/en/"><img src=./logo.png></a>
+        <p>Copyright © Recruit CRM Corp. All Rights Reserved</p>
+    </div>
+  
+</footer>
+</div>
+<script src="script.js"></script>
+</body>
+</html>

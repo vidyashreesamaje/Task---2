@@ -1,0 +1,126 @@
+.container{
+    height: 220px;
+    width: 200%;
+    background-color:rgba(0, 0, 0, 0.868);
+}
+img{
+    position: relative;
+    top:40px;
+    left: 80px;
+    height: 50px;
+    width: 180px;
+    
+}
+.search-container{
+    position: relative;
+    top:60px;
+    left:80px;  
+}
+#search-input{
+   padding-top: 20px;
+   padding-right:800px;
+   border-radius: 10px;
+   font-size: 20px;
+   text-align:center;
+   padding-bottom: 20px;
+  
+   
+}
+h3{
+    position: relative;
+    left:140px;
+    bottom:8px;
+    color: white;
+}
+i{
+    position: relative;
+  
+    bottom: 5px;
+    left:25px;   
+}
+#paragraph{
+    font-weight: bold;
+    font-size: 20px;
+    text-align:left;
+    position: relative;
+    left: 10px;
+}
+label{
+ position: relative; 
+ left:30px;  
+}
+#linkedin-url{
+    position: relative;
+    left: 30px;
+    padding: 10px;
+    height: 20px;
+    width: 300px;
+}
+#import-btn{
+    position: relative;
+    top:30px;
+    left:60px;
+    padding: 15px;
+    border-radius: 5px;
+    background-color:bisque;
+}
+#clear-btn{
+    position: relative;
+    top:30px;
+    left:100px;
+    padding: 15px;
+    border-radius: 5px;
+    background-color:bisque;
+}
+h2{
+    position: relative;
+    top:30px;
+    left:30px;
+}
+#firstpara{
+    position: relative;
+    top:20px;
+    left:30px;
+    
+}
+#secondpara{
+    position: relative;
+    top:15px;
+    left:650px;
+     font-style: oblique;
+     font-size: 15px;
+}
+#thirdpara{
+    font-style:normal;
+}
+#fourthpara{
+    height: 80px;
+    width:700px;
+    background-color: bisque;
+    border-radius: 10px;
+    position: relative;
+    left: 200px;
+}
+#fourthpara  p{
+    position: relative;
+    top:20px;
+    left:20px;
+}
+#footer{
+    position: relative;
+    top:20px;
+    height: 200px;
+    width: 150%;
+    background-color:grey;
+}
+#footer a{
+   position: relative;
+   left: 500px;
+}
+#footer p{
+    position: relative;
+    left: 480px;
+    top:40px;
+    color: white;
+ }
+
